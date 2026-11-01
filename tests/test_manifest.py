@@ -49,6 +49,17 @@ class TestIdentity:
     def test_id_matches_the_plugin_class(self, manifest):
         assert manifest["id"] == LucasfilmQuotesPlugin(manifest).plugin_id
 
+    def test_id_is_the_one_the_registry_derives_from_the_repository(self, manifest):
+        """The registry installs by repository and rejects an id that does not follow from its name."""
+        name = manifest["repository"].rstrip("/").rsplit("/", 1)[1]
+        assert re.fullmatch(r"fiestaboard-plugin--[a-z][a-z0-9-]*", name)
+        assert manifest["id"] == name.removeprefix("fiestaboard-plugin--").replace("-", "_")
+
+    def test_the_quotes_file_is_declared_and_ships(self, manifest):
+        """Without the declaration, an install missing quotes.json would not be caught."""
+        assert manifest["data_files"] == ["quotes.json"]
+        assert all((ROOT / name).is_file() for name in manifest["data_files"])
+
     def test_version_is_semver(self, manifest):
         assert re.fullmatch(r"\d+\.\d+\.\d+", manifest["version"])
 

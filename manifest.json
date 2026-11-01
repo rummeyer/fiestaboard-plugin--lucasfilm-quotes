@@ -10,6 +10,9 @@
   "category": "entertainment",
   "fiestaboard_version": ">=8.25.0",
   "min_refresh_seconds": 60,
+  "data_files": [
+    "quotes.json"
+  ],
   "settings_schema": {
     "type": "object",
     "properties": {
