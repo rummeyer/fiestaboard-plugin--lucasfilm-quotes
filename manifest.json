@@ -1,0 +1,339 @@
+{
+  "id": "lucasfilm_quotes",
+  "name": "Lucasfilm Quotes",
+  "version": "1.0.0",
+  "description": "A quote from a Lucasfilm movie on every refresh — Star Wars, Indiana Jones, Willow, Labyrinth and more — word-wrapped and centered with the character who said it underneath. Only quotes that fit the board, so a Note gets the short ones and a Flagship the long ones too. Optionally only from the franchises, movies or characters you choose. 537 quotes from 23 movies, shipped with the plugin — nothing to download, no API key.",
+  "author": "Oliver Rummeyer",
+  "repository": "https://github.com/rummeyer/fiestaboard-plugin--lucasfilm-quotes",
+  "documentation": "README.md",
+  "icon": "film",
+  "category": "entertainment",
+  "fiestaboard_version": ">=8.25.0",
+  "min_refresh_seconds": 60,
+  "settings_schema": {
+    "type": "object",
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "title": "Enabled",
+        "default": false
+      },
+      "franchises": {
+        "type": "array",
+        "title": "Franchises",
+        "description": "Optional. Only quotes from the movies of these franchises. Leave empty for any.",
+        "items": {
+          "type": "string"
+        },
+        "default": [],
+        "ui:widget": "remote-options",
+        "ui:options": {
+          "options_id": "franchises",
+          "multiple": true,
+          "cache_seconds": 3600,
+          "placeholder": "Any franchise"
+        }
+      },
+      "movies": {
+        "type": "array",
+        "title": "Movies",
+        "description": "Optional. Only quotes from these movies. Combined with franchises, each quote is from one of the chosen franchises or one of the chosen movies.",
+        "items": {
+          "type": "string"
+        },
+        "default": [],
+        "ui:widget": "remote-options",
+        "ui:options": {
+          "options_id": "movies",
+          "multiple": true,
+          "cache_seconds": 3600,
+          "placeholder": "Any movie"
+        }
+      },
+      "characters": {
+        "type": "array",
+        "title": "Characters",
+        "description": "Optional. Only quotes by these characters. Combined with franchises or movies, each quote is by one of the chosen characters and from one of the chosen franchises or movies.",
+        "items": {
+          "type": "string"
+        },
+        "default": [],
+        "ui:widget": "remote-options",
+        "ui:options": {
+          "options_id": "characters",
+          "multiple": true,
+          "cache_seconds": 3600,
+          "placeholder": "Any character"
+        }
+      },
+      "character_name": {
+        "type": "string",
+        "title": "Character name",
+        "description": "Sign the quote with the name of the character who said it, shortened to the name they go by when the full one does not fit. When it fits leaves the name off when the quote needs every row; Always picks only quotes with room for the name — on a Note 99 of the 221 that fit.",
+        "enum": [
+          "fits",
+          "always",
+          "never"
+        ],
+        "enumNames": [
+          "When it fits",
+          "Always (only quotes with room for it)",
+          "Never"
+        ],
+        "default": "fits"
+      },
+      "skip_swearing": {
+        "type": "boolean",
+        "title": "Skip swearing",
+        "description": "Leave out the handful of quotes with a damn, hell or bastard in them.",
+        "default": false
+      },
+      "alignment": {
+        "type": "string",
+        "title": "Alignment",
+        "description": "Centered puts the name centered underneath; left-aligned puts it flush right.",
+        "enum": [
+          "center",
+          "left"
+        ],
+        "enumNames": [
+          "Centered",
+          "Left-aligned"
+        ],
+        "default": "center"
+      },
+      "refresh_seconds": {
+        "type": "integer",
+        "title": "Refresh Interval",
+        "description": "How long a quote stays on the board before the next one.",
+        "default": 3600,
+        "minimum": 60,
+        "maximum": 86400
+      }
+    }
+  },
+  "variables": {
+    "groups": {
+      "quote": {
+        "label": "Quote"
+      },
+      "layout": {
+        "label": "Board Lines"
+      }
+    },
+    "simple": {
+      "quote": {
+        "description": "The quote as board text, unwrapped",
+        "type": "string",
+        "max_length": 500,
+        "group": "quote",
+        "example": "IT'S A TRAP!"
+      },
+      "character": {
+        "description": "The full name of the character who said it, as they go by in the movie",
+        "type": "string",
+        "max_length": 60,
+        "group": "quote",
+        "example": "ADMIRAL ACKBAR"
+      },
+      "movie": {
+        "description": "The movie the quote is from",
+        "type": "string",
+        "max_length": 80,
+        "group": "quote",
+        "example": "STAR WARS: EPISODE VI - RETURN OF THE JEDI"
+      },
+      "year": {
+        "description": "The year the movie came out",
+        "type": "string",
+        "max_length": 4,
+        "group": "quote",
+        "example": "1983"
+      },
+      "franchise": {
+        "description": "The franchise of the movie, empty for a movie outside one",
+        "type": "string",
+        "max_length": 40,
+        "group": "quote",
+        "example": "STAR WARS"
+      },
+      "block": {
+        "description": "The whole laid-out board as one value, rows separated by newlines. Put this on the first template line to fill the board.",
+        "type": "string",
+        "max_length": 12383,
+        "group": "layout",
+        "example": " IT'S A TRAP!  \\n               \\n   - ACKBAR    "
+      },
+      "line1": {
+        "description": "Board row 1 of the layout",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": " IT'S A TRAP!  "
+      },
+      "line2": {
+        "description": "Board row 2 of the layout",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": "               "
+      },
+      "line3": {
+        "description": "Board row 3 of the layout",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": "   - ACKBAR    "
+      },
+      "line4": {
+        "description": "Board row 4 of the layout, empty on a Note",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": ""
+      },
+      "line5": {
+        "description": "Board row 5 of the layout, empty on a Note",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": ""
+      },
+      "line6": {
+        "description": "Board row 6 of the layout, empty on a Note",
+        "type": "string",
+        "max_length": 128,
+        "group": "layout",
+        "example": ""
+      }
+    }
+  },
+  "max_lengths": {
+    "quote": 500,
+    "character": 60,
+    "movie": 80,
+    "year": 4,
+    "franchise": 40,
+    "block": 12383,
+    "line1": 128,
+    "line2": 128,
+    "line3": 128,
+    "line4": 128,
+    "line5": 128,
+    "line6": 128
+  },
+  "demo": {
+    "flagship": {
+      "name": "Lucasfilm Quotes Demo",
+      "template": [
+        "{{lucasfilm_quotes.block}}",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "line_metadata": [
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        }
+      ]
+    },
+    "note": {
+      "name": "Lucasfilm Quotes Demo",
+      "template": [
+        "{{lucasfilm_quotes.block}}",
+        "",
+        ""
+      ],
+      "line_metadata": [
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        }
+      ]
+    }
+  },
+  "teaser": "IT'S A TRAP!",
+  "previews": [
+    {
+      "device_type": "note",
+      "rows": [
+        " IT'S A TRAP!  ",
+        "               ",
+        "   - ACKBAR    "
+      ]
+    },
+    {
+      "device_type": "flagship",
+      "rows": [
+        " HOKEY RELIGIONS AND  ",
+        "ANCIENT WEAPONS ARE NO",
+        "   MATCH FOR A GOOD   ",
+        "BLASTER AT YOUR SIDE, ",
+        "         KID.         ",
+        "      - HAN SOLO      "
+      ]
+    },
+    {
+      "device_type": "note_array",
+      "notes_wide": 2,
+      "notes_tall": 2,
+      "rows": [
+        "                              ",
+        " SNAKES. WHY'D IT HAVE TO BE  ",
+        "           SNAKES?            ",
+        "                              ",
+        "       - INDIANA JONES        ",
+        "                              "
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "docs/board-display.png",
+      "alt": "Lucasfilm Quotes on a Vestaboard Note: IT'S A TRAP! signed - ACKBAR",
+      "caption": "On a Note, only the short quotes",
+      "primary": true
+    },
+    {
+      "src": "docs/board-flagship.png",
+      "alt": "Lucasfilm Quotes on a Vestaboard Flagship: HOKEY RELIGIONS AND ANCIENT WEAPONS ARE NO MATCH FOR A GOOD BLASTER AT YOUR SIDE, KID. signed - HAN SOLO",
+      "caption": "On a Flagship, the long ones too"
+    },
+    {
+      "src": "docs/board-array.png",
+      "alt": "Lucasfilm Quotes on a 2x2 note array: SNAKES. WHY'D IT HAVE TO BE SNAKES? signed - INDIANA JONES",
+      "caption": "On a 2x2 note array"
+    }
+  ]
+}

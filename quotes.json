@@ -1,0 +1,3326 @@
+{
+  "franchises": {
+    "star_wars": {
+      "name": "Star Wars"
+    },
+    "indiana_jones": {
+      "name": "Indiana Jones"
+    }
+  },
+  "movies": {
+    "american_graffiti": {
+      "name": "American Graffiti",
+      "year": 1973,
+      "franchise": null
+    },
+    "a_new_hope": {
+      "name": "Star Wars: Episode IV – A New Hope",
+      "year": 1977,
+      "franchise": "star_wars"
+    },
+    "empire_strikes_back": {
+      "name": "Star Wars: Episode V – The Empire Strikes Back",
+      "year": 1980,
+      "franchise": "star_wars"
+    },
+    "raiders_of_the_lost_ark": {
+      "name": "Raiders of the Lost Ark",
+      "year": 1981,
+      "franchise": "indiana_jones"
+    },
+    "return_of_the_jedi": {
+      "name": "Star Wars: Episode VI – Return of the Jedi",
+      "year": 1983,
+      "franchise": "star_wars"
+    },
+    "temple_of_doom": {
+      "name": "Indiana Jones and the Temple of Doom",
+      "year": 1984,
+      "franchise": "indiana_jones"
+    },
+    "labyrinth": {
+      "name": "Labyrinth",
+      "year": 1986,
+      "franchise": null
+    },
+    "howard_the_duck": {
+      "name": "Howard the Duck",
+      "year": 1986,
+      "franchise": null
+    },
+    "willow": {
+      "name": "Willow",
+      "year": 1988,
+      "franchise": null
+    },
+    "tucker": {
+      "name": "Tucker: The Man and His Dream",
+      "year": 1988,
+      "franchise": null
+    },
+    "last_crusade": {
+      "name": "Indiana Jones and the Last Crusade",
+      "year": 1989,
+      "franchise": "indiana_jones"
+    },
+    "phantom_menace": {
+      "name": "Star Wars: Episode I – The Phantom Menace",
+      "year": 1999,
+      "franchise": "star_wars"
+    },
+    "attack_of_the_clones": {
+      "name": "Star Wars: Episode II – Attack of the Clones",
+      "year": 2002,
+      "franchise": "star_wars"
+    },
+    "revenge_of_the_sith": {
+      "name": "Star Wars: Episode III – Revenge of the Sith",
+      "year": 2005,
+      "franchise": "star_wars"
+    },
+    "kingdom_of_the_crystal_skull": {
+      "name": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "year": 2008,
+      "franchise": "indiana_jones"
+    },
+    "clone_wars": {
+      "name": "Star Wars: The Clone Wars",
+      "year": 2008,
+      "franchise": "star_wars"
+    },
+    "red_tails": {
+      "name": "Red Tails",
+      "year": 2012,
+      "franchise": null
+    },
+    "force_awakens": {
+      "name": "Star Wars: Episode VII – The Force Awakens",
+      "year": 2015,
+      "franchise": "star_wars"
+    },
+    "rogue_one": {
+      "name": "Rogue One: A Star Wars Story",
+      "year": 2016,
+      "franchise": "star_wars"
+    },
+    "last_jedi": {
+      "name": "Star Wars: Episode VIII – The Last Jedi",
+      "year": 2017,
+      "franchise": "star_wars"
+    },
+    "solo": {
+      "name": "Solo: A Star Wars Story",
+      "year": 2018,
+      "franchise": "star_wars"
+    },
+    "rise_of_skywalker": {
+      "name": "Star Wars: Episode IX – The Rise of Skywalker",
+      "year": 2019,
+      "franchise": "star_wars"
+    },
+    "dial_of_destiny": {
+      "name": "Indiana Jones and the Dial of Destiny",
+      "year": 2023,
+      "franchise": "indiana_jones"
+    }
+  },
+  "characters": {
+    "abe_karatz": {
+      "name": "Abe Karatz",
+      "short_names": []
+    },
+    "admiral_ackbar": {
+      "name": "Admiral Ackbar",
+      "short_names": [
+        "Ackbar"
+      ]
+    },
+    "admiral_ozzel": {
+      "name": "Admiral Ozzel",
+      "short_names": [
+        "Ozzel"
+      ]
+    },
+    "ahsoka_tano": {
+      "name": "Ahsoka Tano",
+      "short_names": []
+    },
+    "anakin_skywalker": {
+      "name": "Anakin Skywalker",
+      "short_names": [
+        "Anakin"
+      ]
+    },
+    "armitage_hux": {
+      "name": "Armitage Hux",
+      "short_names": [
+        "Hux"
+      ]
+    },
+    "asajj_ventress": {
+      "name": "Asajj Ventress",
+      "short_names": [
+        "Ventress"
+      ]
+    },
+    "beverly_switzler": {
+      "name": "Beverly Switzler",
+      "short_names": [
+        "Beverly"
+      ]
+    },
+    "blonde_in_the_t_bird": {
+      "name": "Blonde in the T-Bird",
+      "short_names": [
+        "The Blonde"
+      ]
+    },
+    "c_3po": {
+      "name": "C-3PO",
+      "short_names": []
+    },
+    "carol": {
+      "name": "Carol",
+      "short_names": []
+    },
+    "chirrut_imwe": {
+      "name": "Chirrut Îmwe",
+      "short_names": [
+        "Chirrut"
+      ]
+    },
+    "conan_antonio_motti": {
+      "name": "Conan Antonio Motti",
+      "short_names": [
+        "Motti"
+      ]
+    },
+    "count_dooku": {
+      "name": "Count Dooku",
+      "short_names": [
+        "Dooku"
+      ]
+    },
+    "curt_henderson": {
+      "name": "Curt Henderson",
+      "short_names": [
+        "Curt"
+      ]
+    },
+    "dark_overlord": {
+      "name": "Dark Overlord",
+      "short_names": []
+    },
+    "darth_maul": {
+      "name": "Darth Maul",
+      "short_names": []
+    },
+    "darth_vader": {
+      "name": "Darth Vader",
+      "short_names": [
+        "Vader"
+      ]
+    },
+    "debbie": {
+      "name": "Debbie",
+      "short_names": []
+    },
+    "declan_winky_hall": {
+      "name": "Declan 'Winky' Hall",
+      "short_names": [
+        "Winky"
+      ]
+    },
+    "dj": {
+      "name": "DJ",
+      "short_names": []
+    },
+    "dryden_vos": {
+      "name": "Dryden Vos",
+      "short_names": []
+    },
+    "fedora": {
+      "name": "Fedora",
+      "short_names": []
+    },
+    "finn": {
+      "name": "Finn",
+      "short_names": []
+    },
+    "franjean": {
+      "name": "Franjean",
+      "short_names": []
+    },
+    "galen_erso": {
+      "name": "Galen Erso",
+      "short_names": []
+    },
+    "general_grievous": {
+      "name": "General Grievous",
+      "short_names": [
+        "Grievous"
+      ]
+    },
+    "grail_knight": {
+      "name": "Grail Knight",
+      "short_names": []
+    },
+    "grand_moff_tarkin": {
+      "name": "Grand Moff Tarkin",
+      "short_names": [
+        "Tarkin"
+      ]
+    },
+    "han_solo": {
+      "name": "Han Solo",
+      "short_names": [
+        "Han"
+      ]
+    },
+    "helena_shaw": {
+      "name": "Helena Shaw",
+      "short_names": []
+    },
+    "henry_jones_sr": {
+      "name": "Henry Jones Sr.",
+      "short_names": [
+        "Henry Sr."
+      ]
+    },
+    "high_aldwin": {
+      "name": "High Aldwin",
+      "short_names": []
+    },
+    "hoggle": {
+      "name": "Hoggle",
+      "short_names": []
+    },
+    "howard_the_duck": {
+      "name": "Howard the Duck",
+      "short_names": [
+        "Howard"
+      ]
+    },
+    "indiana_jones": {
+      "name": "Indiana Jones",
+      "short_names": [
+        "Indy"
+      ]
+    },
+    "irina_spalko": {
+      "name": "Irina Spalko",
+      "short_names": [
+        "Spalko"
+      ]
+    },
+    "jabba_the_hutt": {
+      "name": "Jabba the Hutt",
+      "short_names": [
+        "Jabba"
+      ]
+    },
+    "jango_fett": {
+      "name": "Jango Fett",
+      "short_names": []
+    },
+    "jar_jar_binks": {
+      "name": "Jar Jar Binks",
+      "short_names": []
+    },
+    "jareth": {
+      "name": "Jareth",
+      "short_names": []
+    },
+    "john_milner": {
+      "name": "John Milner",
+      "short_names": []
+    },
+    "jurgen_voller": {
+      "name": "Jürgen Voller",
+      "short_names": [
+        "Voller"
+      ]
+    },
+    "jyn_erso": {
+      "name": "Jyn Erso",
+      "short_names": []
+    },
+    "k_2so": {
+      "name": "K-2SO",
+      "short_names": []
+    },
+    "kanan_jarrus": {
+      "name": "Kanan Jarrus",
+      "short_names": [
+        "Kanan"
+      ]
+    },
+    "kazim": {
+      "name": "Kazim",
+      "short_names": []
+    },
+    "ki_adi_mundi": {
+      "name": "Ki-Adi-Mundi",
+      "short_names": []
+    },
+    "kylo_ren": {
+      "name": "Kylo Ren",
+      "short_names": []
+    },
+    "lando_calrissian": {
+      "name": "Lando Calrissian",
+      "short_names": [
+        "Lando"
+      ]
+    },
+    "lao_che": {
+      "name": "Lao Che",
+      "short_names": []
+    },
+    "laurie": {
+      "name": "Laurie",
+      "short_names": []
+    },
+    "leia_organa": {
+      "name": "Leia Organa",
+      "short_names": [
+        "Leia"
+      ]
+    },
+    "lightning": {
+      "name": "Lightning",
+      "short_names": []
+    },
+    "lor_san_tekka": {
+      "name": "Lor San Tekka",
+      "short_names": []
+    },
+    "ludo": {
+      "name": "Ludo",
+      "short_names": []
+    },
+    "luke_skywalker": {
+      "name": "Luke Skywalker",
+      "short_names": [
+        "Luke"
+      ]
+    },
+    "luminara_unduli": {
+      "name": "Luminara Unduli",
+      "short_names": [
+        "Luminara"
+      ]
+    },
+    "mace_windu": {
+      "name": "Mace Windu",
+      "short_names": []
+    },
+    "madmartigan": {
+      "name": "Madmartigan",
+      "short_names": []
+    },
+    "major_eaton": {
+      "name": "Major Eaton",
+      "short_names": []
+    },
+    "marion_ravenwood": {
+      "name": "Marion Ravenwood",
+      "short_names": [
+        "Marion"
+      ]
+    },
+    "maz_kanata": {
+      "name": "Maz Kanata",
+      "short_names": []
+    },
+    "mutt_williams": {
+      "name": "Mutt Williams",
+      "short_names": [
+        "Mutt"
+      ]
+    },
+    "nute_gunray": {
+      "name": "Nute Gunray",
+      "short_names": []
+    },
+    "obi_wan_kenobi": {
+      "name": "Obi-Wan Kenobi",
+      "short_names": [
+        "Obi-Wan"
+      ]
+    },
+    "orson_krennic": {
+      "name": "Orson Krennic",
+      "short_names": [
+        "Krennic"
+      ]
+    },
+    "padme_amidala": {
+      "name": "Padmé Amidala",
+      "short_names": [
+        "Padmé"
+      ]
+    },
+    "palpatine": {
+      "name": "Palpatine",
+      "short_names": []
+    },
+    "phil_blumburtt": {
+      "name": "Phil Blumburtt",
+      "short_names": [
+        "Phil"
+      ]
+    },
+    "poe_dameron": {
+      "name": "Poe Dameron",
+      "short_names": []
+    },
+    "preston_tucker": {
+      "name": "Preston Tucker",
+      "short_names": [
+        "Tucker"
+      ]
+    },
+    "qi_ra": {
+      "name": "Qi'ra",
+      "short_names": []
+    },
+    "queen_bavmorda": {
+      "name": "Queen Bavmorda",
+      "short_names": [
+        "Bavmorda"
+      ]
+    },
+    "queen_jamilla": {
+      "name": "Queen Jamilla",
+      "short_names": []
+    },
+    "qui_gon_jinn": {
+      "name": "Qui-Gon Jinn",
+      "short_names": [
+        "Qui-Gon"
+      ]
+    },
+    "rene_belloq": {
+      "name": "René Belloq",
+      "short_names": [
+        "Belloq"
+      ]
+    },
+    "rey": {
+      "name": "Rey",
+      "short_names": []
+    },
+    "rose_tico": {
+      "name": "Rose Tico",
+      "short_names": []
+    },
+    "sallah": {
+      "name": "Sallah",
+      "short_names": []
+    },
+    "sarah_williams": {
+      "name": "Sarah Williams",
+      "short_names": [
+        "Sarah"
+      ]
+    },
+    "satipo": {
+      "name": "Satipo",
+      "short_names": []
+    },
+    "short_round": {
+      "name": "Short Round",
+      "short_names": []
+    },
+    "sir_didymus": {
+      "name": "Sir Didymus",
+      "short_names": []
+    },
+    "sorsha": {
+      "name": "Sorsha",
+      "short_names": []
+    },
+    "steve_bolander": {
+      "name": "Steve Bolander",
+      "short_names": [
+        "Steve"
+      ]
+    },
+    "supreme_leader_snoke": {
+      "name": "Supreme Leader Snoke",
+      "short_names": [
+        "Snoke"
+      ]
+    },
+    "terry": {
+      "name": "Terry",
+      "short_names": []
+    },
+    "the_worm": {
+      "name": "The Worm",
+      "short_names": []
+    },
+    "tobias_beckett": {
+      "name": "Tobias Beckett",
+      "short_names": [
+        "Beckett"
+      ]
+    },
+    "toht": {
+      "name": "Toht",
+      "short_names": []
+    },
+    "tommy_swerdlow": {
+      "name": "Tommy Swerdlow",
+      "short_names": [
+        "Tommy"
+      ]
+    },
+    "vic": {
+      "name": "Vic",
+      "short_names": []
+    },
+    "walter_donovan": {
+      "name": "Walter Donovan",
+      "short_names": [
+        "Donovan"
+      ]
+    },
+    "watto": {
+      "name": "Watto",
+      "short_names": []
+    },
+    "willie_scott": {
+      "name": "Willie Scott",
+      "short_names": [
+        "Willie"
+      ]
+    },
+    "willow_ufgood": {
+      "name": "Willow Ufgood",
+      "short_names": [
+        "Willow"
+      ]
+    },
+    "yoda": {
+      "name": "Yoda",
+      "short_names": []
+    },
+    "zorii_bliss": {
+      "name": "Zorii Bliss",
+      "short_names": []
+    }
+  },
+  "quotes": [
+    {
+      "character": "steve_bolander",
+      "movie": "american_graffiti",
+      "text": "You just can't stay seventeen forever."
+    },
+    {
+      "character": "john_milner",
+      "movie": "american_graffiti",
+      "text": "I've never been beaten - a lot of guys have tried."
+    },
+    {
+      "character": "debbie",
+      "movie": "american_graffiti",
+      "text": "I'm not your baby."
+    },
+    {
+      "character": "blonde_in_the_t_bird",
+      "movie": "american_graffiti",
+      "text": "Goodbye, Curt."
+    },
+    {
+      "character": "curt_henderson",
+      "movie": "american_graffiti",
+      "text": "Where is the dazzling beauty I've been searching for all my life?"
+    },
+    {
+      "character": "john_milner",
+      "movie": "american_graffiti",
+      "text": "I'm not surprised, drivin' a Field Car."
+    },
+    {
+      "character": "laurie",
+      "movie": "american_graffiti",
+      "text": "I'm not going with you to the airport tomorrow."
+    },
+    {
+      "character": "blonde_in_the_t_bird",
+      "movie": "american_graffiti",
+      "text": "I cruise Third Street. Maybe I'll see you tonight."
+    },
+    {
+      "character": "steve_bolander",
+      "movie": "american_graffiti",
+      "text": "Why should I leave home to find a home?"
+    },
+    {
+      "character": "curt_henderson",
+      "movie": "american_graffiti",
+      "text": "I don't think I'm gonna be going tomorrow."
+    },
+    {
+      "character": "debbie",
+      "movie": "american_graffiti",
+      "text": "That creep's not a friend of mine. He's just horny. That's why I like you, you're different."
+    },
+    {
+      "character": "terry",
+      "movie": "american_graffiti",
+      "text": "You know, I think you're really neat."
+    },
+    {
+      "character": "john_milner",
+      "movie": "american_graffiti",
+      "text": "You're gonna hafta do one hell of a lot more than that to scare me!"
+    },
+    {
+      "character": "carol",
+      "movie": "american_graffiti",
+      "text": "Your car's uglier than I am! That didn't come out right."
+    },
+    {
+      "character": "steve_bolander",
+      "movie": "american_graffiti",
+      "text": "I may have been wrong, Curt. I may have been wrong."
+    },
+    {
+      "character": "curt_henderson",
+      "movie": "american_graffiti",
+      "text": "Tell me your name, at least tell me your name."
+    },
+    {
+      "character": "vic",
+      "movie": "american_graffiti",
+      "text": "Look, creep, you want a knuckle sandwich?"
+    },
+    {
+      "character": "laurie",
+      "movie": "american_graffiti",
+      "text": "If you're not gonna remember me for anything else, why don't you just go ahead?"
+    },
+    {
+      "character": "curt_henderson",
+      "movie": "american_graffiti",
+      "text": "Who are you? Do you know me?"
+    },
+    {
+      "character": "leia_organa",
+      "movie": "a_new_hope",
+      "text": "Help me, Obi-Wan Kenobi. You're my only hope.",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "These aren't the droids you're looking for."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "I find your lack of faith disturbing."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "Use the Force, Luke."
+    },
+    {
+      "character": "han_solo",
+      "movie": "a_new_hope",
+      "text": "May the Force be with you."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "a_new_hope",
+      "text": "Aren't you a little short for a stormtrooper?",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "That's no moon. It's a space station."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "You will never find a more wretched hive of scum and villainy."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "a_new_hope",
+      "text": "I have a very bad feeling about this."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "The Force is strong with this one."
+    },
+    {
+      "character": "han_solo",
+      "movie": "a_new_hope",
+      "text": "Hokey religions and ancient weapons are no match for a good blaster at your side, kid."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "If you strike me down, I shall become more powerful than you can possibly imagine."
+    },
+    {
+      "character": "han_solo",
+      "movie": "a_new_hope",
+      "text": "It's the ship that made the Kessel Run in less than twelve parsecs."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "I've been waiting for you, Obi-Wan. We meet again at last."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "I felt a great disturbance in the Force..."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "Don't underestimate the Force."
+    },
+    {
+      "character": "grand_moff_tarkin",
+      "movie": "a_new_hope",
+      "text": "The Jedi are extinct."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "Your powers are weak, old man."
+    },
+    {
+      "character": "han_solo",
+      "movie": "a_new_hope",
+      "text": "Great shot, kid! That was one in a million!"
+    },
+    {
+      "character": "c_3po",
+      "movie": "a_new_hope",
+      "text": "We're doomed!"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "Move along."
+    },
+    {
+      "character": "c_3po",
+      "movie": "a_new_hope",
+      "text": "We seem to be made to suffer. It's our lot in life."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "You are part of the Rebel Alliance and a traitor! Take her away!"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "And now, Your Highness, we will discuss the location of your hidden Rebel base."
+    },
+    {
+      "character": "han_solo",
+      "movie": "a_new_hope",
+      "text": "That garbage chute was a really wonderful idea! What an incredible smell you've discovered!"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "Who's the more foolish? The fool, or the fool who follows him?"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "a_new_hope",
+      "text": "This will be a day long remembered. It has seen the end of Kenobi. It will soon see the end of the Rebellion."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "I need your help, Luke. She needs your help. I'm getting too old for this sort of thing."
+    },
+    {
+      "character": "conan_antonio_motti",
+      "movie": "a_new_hope",
+      "text": "Dangerous to your starfleet, Commander. Not to this battle station."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "You don't need to see his identification."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "He can go about his business."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "This little one's not worth the effort. Come, let me get you something."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "a_new_hope",
+      "text": "Only passengers. Myself, the boy, two droids... and no questions asked."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "No, I am your father."
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "Do. Or do not. There is no try."
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "Never tell me the odds!"
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "I know."
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "Judge me by my size, do you?"
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "You must unlearn what you have learned."
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "Luminous beings are we, not this crude matter."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "empire_strikes_back",
+      "text": "I love you.",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "Hurry up, goldenrod, or you're gonna be a permanent resident!"
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "And I thought they smelled bad... on the outside!"
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "Who's scruffy-looking?"
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "This is no cave!"
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "Size matters not. Look at me."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "empire_strikes_back",
+      "text": "I won't fail you. I'm not afraid."
+    },
+    {
+      "character": "yoda",
+      "movie": "empire_strikes_back",
+      "text": "You will be. You... will... be."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "Search your feelings. You know it to be true."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "Luke, you do not yet realize your importance."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "empire_strikes_back",
+      "text": "I'll never join you!"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "He will join us or die, Master."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "empire_strikes_back",
+      "text": "That boy is our last hope."
+    },
+    {
+      "character": "han_solo",
+      "movie": "empire_strikes_back",
+      "text": "You like me because I'm a scoundrel. There aren't enough scoundrels in your life."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "empire_strikes_back",
+      "text": "I don't know where you get your delusions, laser brain.",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "leia_organa",
+      "movie": "empire_strikes_back",
+      "text": "My- Why you stuck-up, half-witted, scruffy-looking... nerf-herder!!",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "leia_organa",
+      "movie": "empire_strikes_back",
+      "text": "Why, I guess you don't know everything about women yet.",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "admiral_ozzel",
+      "movie": "empire_strikes_back",
+      "text": "We have thousands of probe droids searching the galaxy. I want proof, not leads."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "He is as clumsy as he is stupid. General, prepare your troops for a surface attack."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "You have failed me for the last time, Admiral. Captain Piett."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "empire_strikes_back",
+      "text": "You don't have to do this to impress me.",
+      "as": "Princess Leia"
+    },
+    {
+      "character": "palpatine",
+      "movie": "empire_strikes_back",
+      "text": "Search your feelings, Lord Vader. You will know it to be true. He could destroy us.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "He's just a boy. Obi-Wan can no longer help him."
+    },
+    {
+      "character": "palpatine",
+      "movie": "empire_strikes_back",
+      "text": "The Force is strong with him. The son of Skywalker must not become a Jedi.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "empire_strikes_back",
+      "text": "If he could be turned, he would become a powerful ally."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Snakes. Why'd it have to be snakes?"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "It's not the years, honey, it's the mileage."
+    },
+    {
+      "character": "satipo",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Throw me the idol, I'll throw you the whip!"
+    },
+    {
+      "character": "major_eaton",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "We have top men working on it right now. Top... men."
+    },
+    {
+      "character": "sallah",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Bad dates."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Marion, don't look at it. Shut your eyes, Marion."
+    },
+    {
+      "character": "marion_ravenwood",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Indy, where doesn't it hurt?"
+    },
+    {
+      "character": "marion_ravenwood",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "You can't do this to me! I'm an American!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "There's a big snake in the plane, Jock!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "I'm making this up as I go."
+    },
+    {
+      "character": "rene_belloq",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "It's a transmitter! It's a radio for speaking to God!"
+    },
+    {
+      "character": "sallah",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Asps. Very dangerous. You go first."
+    },
+    {
+      "character": "sallah",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Indy, why does the floor move?"
+    },
+    {
+      "character": "rene_belloq",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Archaeology is our religion, yet we have both fallen from the pure faith."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "I don't believe in magic, a load of superstitious hocus-pocus."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Fools. Bureaucratic fools."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Don't look, Marion! Keep your eyes shut!"
+    },
+    {
+      "character": "marion_ravenwood",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "We never seem to get a break, do we?"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Lightning...fire...the power of God or something."
+    },
+    {
+      "character": "marion_ravenwood",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "I learned to hate you in the last ten years!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "I never meant to hurt you."
+    },
+    {
+      "character": "marion_ravenwood",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "I was a child! I was in love! It was wrong and you knew it!"
+    },
+    {
+      "character": "toht",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "The man is nefarious. I hope, for your sake, he has not yet acquired it."
+    },
+    {
+      "character": "toht",
+      "movie": "raiders_of_the_lost_ark",
+      "text": "Fraulein Ravenwood, let me show you what I am used to."
+    },
+    {
+      "character": "admiral_ackbar",
+      "movie": "return_of_the_jedi",
+      "text": "It's a trap!"
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "Your overconfidence is your weakness."
+    },
+    {
+      "character": "palpatine",
+      "movie": "return_of_the_jedi",
+      "text": "Your faith in your friends is yours.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "I am a Jedi, like my father before me."
+    },
+    {
+      "character": "palpatine",
+      "movie": "return_of_the_jedi",
+      "text": "Now, witness the firepower of this fully armed and operational battle station!",
+      "as": "The Emperor"
+    },
+    {
+      "character": "yoda",
+      "movie": "return_of_the_jedi",
+      "text": "When nine hundred years old you reach, look as good you will not."
+    },
+    {
+      "character": "yoda",
+      "movie": "return_of_the_jedi",
+      "text": "Twilight is upon me, and soon, night must fall."
+    },
+    {
+      "character": "yoda",
+      "movie": "return_of_the_jedi",
+      "text": "Strong, am I, with the Force... but not that strong."
+    },
+    {
+      "character": "yoda",
+      "movie": "return_of_the_jedi",
+      "text": "Do not underestimate the powers of the Emperor... or suffer your father's fate, you will."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "return_of_the_jedi",
+      "text": "You cannot escape your destiny. You must face Darth Vader again."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "return_of_the_jedi",
+      "text": "He's more machine now than man. Twisted and evil."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "I can't kill my own father."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "Never. I'll never turn to the dark side. You've failed, Your Highness."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "Because there is good in him, I've felt it."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "return_of_the_jedi",
+      "text": "It is too late for me, son."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "return_of_the_jedi",
+      "text": "The Emperor is not as forgiving as I am."
+    },
+    {
+      "character": "palpatine",
+      "movie": "return_of_the_jedi",
+      "text": "Welcome, young Skywalker, I have been expecting you.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "palpatine",
+      "movie": "return_of_the_jedi",
+      "text": "Everything that has transpired has done so according to my design.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "You were right about me. Tell your sister... you were right."
+    },
+    {
+      "character": "jabba_the_hutt",
+      "movie": "return_of_the_jedi",
+      "text": "It's too late for that, Solo."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "return_of_the_jedi",
+      "text": "You may dispense with the pleasantries, Commander. I'm here to put you back on schedule."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "return_of_the_jedi",
+      "text": "Perhaps I can find new ways to motivate them."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "return_of_the_jedi",
+      "text": "The Emperor does not share your optimistic appraisal of the situation."
+    },
+    {
+      "character": "jabba_the_hutt",
+      "movie": "return_of_the_jedi",
+      "text": "And there he is. You knew I'd always find you no matter where you were hiding."
+    },
+    {
+      "character": "han_solo",
+      "movie": "return_of_the_jedi",
+      "text": "Jabba... I'll pay you triple. You're throwing away a fortune here! Don't be a fool!"
+    },
+    {
+      "character": "leia_organa",
+      "movie": "return_of_the_jedi",
+      "text": "We have powerful friends. You're gonna regret this."
+    },
+    {
+      "character": "palpatine",
+      "movie": "return_of_the_jedi",
+      "text": "Everything is proceeding as I have foreseen.",
+      "as": "The Emperor"
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "I can't do it, R2. I can't go on alone."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "return_of_the_jedi",
+      "text": "Yoda will always be with you."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "Obi-Wan! Why didn't you tell me? You told me Vader betrayed and murdered my father."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "return_of_the_jedi",
+      "text": "There is still good in him."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "return_of_the_jedi",
+      "text": "Then the Emperor has already won. You were our only hope."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "return_of_the_jedi",
+      "text": "The other he spoke of is your twin sister."
+    },
+    {
+      "character": "lando_calrissian",
+      "movie": "return_of_the_jedi",
+      "text": "Would you get going, you pirate? Good luck."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Fortune and glory, kid. Fortune and glory."
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "No time for love, Dr. Jones!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Prepare to meet Kali... in hell!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Nothing shocks me. I'm a scientist."
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "I hate the water, and I hate being wet, and I hate you!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Indy, I love you! Wake up, Indy!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Feels like I step on fortune cookie!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Hang on, lady, we going for a ride!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Those aren't big birds, sweetheart! They're giant vampire bats!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Sweetheart, after all the fun we've had together?"
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "No one's flying the plane!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Okey-Dokey, Dr. Jones! Hold on to your potatoes!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Dr. Jones! No more parachutes!"
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "I burned my fingers and I CRACKED a nail!"
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "A boat?! We're not sinking, WE'RE CRASHING!"
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "Dr. Jones, I'd be safer sleeping with a snake. I said cut it OUT! I hate that elephant."
+    },
+    {
+      "character": "willie_scott",
+      "movie": "temple_of_doom",
+      "text": "I'm not going to have anything nice to say about this place when I get back!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "You call him Dr. Jones, DOLL!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "I keep telling you. You listen to me more, you live longer!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "You make me poor! No fun! Playing with you no fun!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "I step where you step! I touch nothing!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Water! Water! Water! Wa...Oh. WATER!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "Leave him alone, you bastards!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "He no nuts, he crazy."
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Wow! Holy smokes! Crash landing!"
+    },
+    {
+      "character": "short_round",
+      "movie": "temple_of_doom",
+      "text": "Hey, Dr. Jones, no time for love! We got company!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "temple_of_doom",
+      "text": "The diamond, Lao. The deal was for the diamond."
+    },
+    {
+      "character": "lao_che",
+      "movie": "temple_of_doom",
+      "text": "Inside are the remains of Nurhaci - first Emperor of Manchu Dynasty!"
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "You have no power over me!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "Just fear me, love me, do as I say, and I will be your slave!"
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "It's not fair!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "Just let me rule you, and you can have everything that you want."
+    },
+    {
+      "character": "the_worm",
+      "movie": "labyrinth",
+      "text": "Things are not always what they seem in this place. So, you can't take anything for granted."
+    },
+    {
+      "character": "ludo",
+      "movie": "labyrinth",
+      "text": "Sure. Rocks friends."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "You're him, aren't you? You're the Goblin King!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "What's said is said."
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "It's further than you think... and time is short."
+    },
+    {
+      "character": "hoggle",
+      "movie": "labyrinth",
+      "text": "You know your problem? You take too many things for granted."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "It's a piece of cake!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "You say that so often!"
+    },
+    {
+      "character": "hoggle",
+      "movie": "labyrinth",
+      "text": "You need to understand my position: I'm a coward. And Jareth scares me."
+    },
+    {
+      "character": "sir_didymus",
+      "movie": "labyrinth",
+      "text": "I have sworn with my lifeblood no one shall pass this way without my permission."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "I need you, Hoggle."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "Someone has been in my room again. I hate that. I hate it!"
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "Someone save me, someone take me away from this awful place!"
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "I wish the goblins would come and take you away, right now."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "I have to face him alone... because that's the way it's done."
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "In nine hours and twenty-three minutes... you'll be mine!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "I think I'll call him Jareth. He's got my eyes."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "I can bear it no longer! Goblin King! Goblin King! Wherever you may be, take this child of mine far away from me!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "Sarah... go back to your room. Play with your toys and your costumes. Forget about the baby."
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "Sarah... don't defy me! You're no match for me, Sarah!"
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "But I have to have my brother back!"
+    },
+    {
+      "character": "jareth",
+      "movie": "labyrinth",
+      "text": "Turn back, Sarah. Turn back before it's too late."
+    },
+    {
+      "character": "sarah_williams",
+      "movie": "labyrinth",
+      "text": "I thought they did nice things, like granting wishes!"
+    },
+    {
+      "character": "hoggle",
+      "movie": "labyrinth",
+      "text": "It's HOGGLE, and don't say I didn't warn you!"
+    },
+    {
+      "character": "the_worm",
+      "movie": "labyrinth",
+      "text": "Who me? Naahh, I'm just a worm, heh."
+    },
+    {
+      "character": "the_worm",
+      "movie": "labyrinth",
+      "text": "Come inside and meet the missus."
+    },
+    {
+      "character": "the_worm",
+      "movie": "labyrinth",
+      "text": "Come inside and have a nice cuppa tea."
+    },
+    {
+      "character": "the_worm",
+      "movie": "labyrinth",
+      "text": "I said, don't go that way! Never go that way!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Cleve-Land? Uh huh. That's a perfect weird name for this planet."
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "I can't sit here on my tail feathers feeling sorry for myself."
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "That's right: space rabies! One bite, and it's agonising death in five seconds!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "\"Hit my planet\"? How about \"hit my living room\"?! Talk about invasion of privacy!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "I've had enough! I wanna see my lawyer! I've got rights, you know! I'm suing!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "You're ruffling my feathers! Put me down, you big, hairless ape."
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "It's not nice to fool with a Dark Overlord!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "If God intended us to fly, he wouldn't have taken away our wings."
+    },
+    {
+      "character": "beverly_switzler",
+      "movie": "howard_the_duck",
+      "text": "But if that's the way you want it, then so long, duckie!"
+    },
+    {
+      "character": "beverly_switzler",
+      "movie": "howard_the_duck",
+      "text": "I just can't resist your intense animal magnetism."
+    },
+    {
+      "character": "tommy_swerdlow",
+      "movie": "howard_the_duck",
+      "text": "Different lifestyles is one thing, different life forms is another."
+    },
+    {
+      "character": "dark_overlord",
+      "movie": "howard_the_duck",
+      "text": "You are about to witness the end of the old world and the birth of the new."
+    },
+    {
+      "character": "dark_overlord",
+      "movie": "howard_the_duck",
+      "text": "An evil unlike any you can imagine is about to engulf the Earth."
+    },
+    {
+      "character": "dark_overlord",
+      "movie": "howard_the_duck",
+      "text": "I have no license. I am not Jack."
+    },
+    {
+      "character": "phil_blumburtt",
+      "movie": "howard_the_duck",
+      "text": "I never heard of a duck that couldn't swim."
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Great Duck in Heaven, is this the end of Howard?"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Desperate ducks commit desperate acts!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Phil, no duck is an island, and if Fate sent me here to save Earth, then Howard the Duck is ready to fight!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Prepare to eat beak."
+    },
+    {
+      "character": "phil_blumburtt",
+      "movie": "howard_the_duck",
+      "text": "Trust your birdness: fly!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "No one laughs at a master of quack-fu!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Hey. If I had some place to go, I certainly wouldn't be in Cleve-Land."
+    },
+    {
+      "character": "phil_blumburtt",
+      "movie": "howard_the_duck",
+      "text": "Nice Ducky. Me, Phil. You, Howard. We can be friends. Klaatu Barada Nikto!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "I see...Myself, walking out that door!"
+    },
+    {
+      "character": "howard_the_duck",
+      "movie": "howard_the_duck",
+      "text": "Alright, that's how it starts! Police brutality!"
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "Don't call me a peck!"
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "I am the greatest swordsman that ever lived."
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Get your hair out of my face or I'll chop it off."
+    },
+    {
+      "character": "high_aldwin",
+      "movie": "willow",
+      "text": "Magic is the bloodstream of the universe. Forget all you know, or think you know."
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "You will do as I say, child."
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "Under no condition whatsoever is anyone in this family to fall in love with that baby!"
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "Traitor child. I must despise you now."
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "Is that the extent of your power, little one?"
+    },
+    {
+      "character": "high_aldwin",
+      "movie": "willow",
+      "text": "Ignore the bird! Follow the river."
+    },
+    {
+      "character": "high_aldwin",
+      "movie": "willow",
+      "text": "The bones tell me... nothing."
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "I don't love her, she kicked me in the face! I hate her!"
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Well my mother raised me on blackroot. It's good for you."
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "You're a great warrior, and a swordsman. And you're ten times bigger than I am, stupid!"
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Goodbye, Sticks. If you really are a princess, take care of him."
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Let me out of here, Airk. Give me a sword, I'll win this war for you."
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Ooh, I'm really scared. No! Don't! There's a- a peck here with an acorn pointed at me!"
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "I didn't ask you to bring me a dead nursemaid. Sorsha, you're useless."
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "You're a fool. I shall destroy you and the child with you."
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "Her name is not 'Sticks'. She's Elora Danan, the future Empress of Tir Asleen...and the last thing she's gonna want is a hairy chest!"
+    },
+    {
+      "character": "franjean",
+      "movie": "willow",
+      "text": "Don't play with that wand! It holds vast powers. Only a real sorcerer can use it, not a stupid peck like you."
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "You dare to challenge me? You're not warriors. You're pigs! Toa thonna mondarr! Nocklith! Vohkbar! YOU'RE ALL PIGS! PIGS! PIGS!"
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "Now you will watch me call upon the power of the universe to send that child into the Netherworld! NOW PLACE IT ON THE ALTAR!"
+    },
+    {
+      "character": "queen_bavmorda",
+      "movie": "willow",
+      "text": "Why is it with my powers and the strength of my great army you cannot so much as find one - little - child?"
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "Into a realm where evil cannot touch her!"
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "Madmartigan, you never, ever drive that fast with an infant!"
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "I just saved that infant's life!"
+    },
+    {
+      "character": "sorsha",
+      "movie": "willow",
+      "text": "I suppose my power enchanted you and you were helpless against it."
+    },
+    {
+      "character": "willow_ufgood",
+      "movie": "willow",
+      "text": "You started spouting poetry. 'I love you Sorsha! I worship you Sorsha!' You almost got us killed!"
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "She is kinda cute... When she's quiet."
+    },
+    {
+      "character": "madmartigan",
+      "movie": "willow",
+      "text": "Really? And you're a great sorcerer... And I'm the king of Cashmir. Go to sleep, Willow."
+    },
+    {
+      "character": "preston_tucker",
+      "movie": "tucker",
+      "text": "Now how can you say that? You haven't even heard my ideas yet."
+    },
+    {
+      "character": "abe_karatz",
+      "movie": "tucker",
+      "text": "They love the cars, the people! Drives me crazy, that the motor company's dead... They'll never be made!"
+    },
+    {
+      "character": "preston_tucker",
+      "movie": "tucker",
+      "text": "Isn't that the idea? To build a better mousetrap?"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "It belongs in a museum!"
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "We named the dog Indiana."
+    },
+    {
+      "character": "grail_knight",
+      "movie": "last_crusade",
+      "text": "He chose... poorly."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "We do not follow maps to buried treasure, and X never, ever marks the spot."
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "Only the penitent man will pass."
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "Indiana... let it go."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "That's the cup of a carpenter."
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "My boy, we're pilgrims in an unholy land."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "Archaeology is the search for fact, not truth."
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "You call this archaeology?"
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "Let my armies be the rocks and the trees and the birds in the sky."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "This is an obsession, Dad!"
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "That's for blasphemy!"
+    },
+    {
+      "character": "walter_donovan",
+      "movie": "last_crusade",
+      "text": "You can't save him when you're dead!"
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "You call this archeology?"
+    },
+    {
+      "character": "fedora",
+      "movie": "last_crusade",
+      "text": "You've got heart, kid, but that cross is mine!"
+    },
+    {
+      "character": "fedora",
+      "movie": "last_crusade",
+      "text": "Coronado is dead, and so are his grandchildren!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "This should be in the museum.",
+      "as": "Young Indy"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "Too small for two of us."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "Talk or you're dead! Dammit, tell me! Tell me!"
+    },
+    {
+      "character": "kazim",
+      "movie": "last_crusade",
+      "text": "If you don't let go Dr. Jones, we'll both die!"
+    },
+    {
+      "character": "kazim",
+      "movie": "last_crusade",
+      "text": "My soul is prepared! How is yours?!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "last_crusade",
+      "text": "And the head. You hit me, Dad!"
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "Thank God! ...it's fake. See, you can tell by the cross section."
+    },
+    {
+      "character": "henry_jones_sr",
+      "movie": "last_crusade",
+      "text": "If only I could have been with you."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "There's always a bigger fish."
+    },
+    {
+      "character": "yoda",
+      "movie": "phantom_menace",
+      "text": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "phantom_menace",
+      "text": "Now this is podracing!"
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "Your focus determines your reality."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "phantom_menace",
+      "text": "I have a bad feeling about this."
+    },
+    {
+      "character": "yoda",
+      "movie": "phantom_menace",
+      "text": "Hard to see, the dark side is."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "Be mindful of the living Force, young Padawan."
+    },
+    {
+      "character": "palpatine",
+      "movie": "phantom_menace",
+      "text": "I will make it legal.",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "phantom_menace",
+      "text": "I'm a person, and my name is Anakin."
+    },
+    {
+      "character": "watto",
+      "movie": "phantom_menace",
+      "text": "I'm a Toydarian. Mind tricks don't work on me; only money."
+    },
+    {
+      "character": "darth_maul",
+      "movie": "phantom_menace",
+      "text": "At last we will reveal ourselves to the Jedi. At last we will have revenge."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "These Federation types are cowards. The negotiations will be short."
+    },
+    {
+      "character": "yoda",
+      "movie": "phantom_menace",
+      "text": "Always two, there are. No more, no less. A master and an apprentice."
+    },
+    {
+      "character": "ki_adi_mundi",
+      "movie": "phantom_menace",
+      "text": "Impossible. The Sith have been extinct for a millennium."
+    },
+    {
+      "character": "jar_jar_binks",
+      "movie": "phantom_menace",
+      "text": "Mesa your humble servant!"
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "Obi-Wan, promise... Promise me you will train the boy."
+    },
+    {
+      "character": "palpatine",
+      "movie": "phantom_menace",
+      "text": "Wipe them out. All of them.",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "mace_windu",
+      "movie": "phantom_menace",
+      "text": "I do not believe the Sith could've returned without us knowing."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "phantom_menace",
+      "text": "We will use all our resources to unravel this mystery. We will discover the identity of your attacker. May the Force be with you."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "phantom_menace",
+      "text": "You refer to the prophecy of the one who will bring balance to the Force. You believe it's this boy?"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "phantom_menace",
+      "text": "It's not about the mission, Master. It's something... elsewhere. Elusive."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "Don't center on your anxieties, Obi-Wan. Keep your concentration here and now, where it belongs."
+    },
+    {
+      "character": "palpatine",
+      "movie": "phantom_menace",
+      "text": "The Chancellor should never have brought them into this! Kill them immediately!",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "padme_amidala",
+      "movie": "phantom_menace",
+      "text": "Beware, Viceroy. The Federation has gone too far, this time."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "The ability to speak does not make you intelligent. Now get out of here."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "phantom_menace",
+      "text": "That is the sound of a thousand terrible things headed this way."
+    },
+    {
+      "character": "palpatine",
+      "movie": "phantom_menace",
+      "text": "Not for a Sith. This is my apprentice, Darth Maul. He will find your lost ship.",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "nute_gunray",
+      "movie": "phantom_menace",
+      "text": "This is getting out of hand. Now there are two of them!"
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "attack_of_the_clones",
+      "text": "I don't like sand. It's coarse and rough and irritating and it gets everywhere."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "Begun, the Clone War has."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "attack_of_the_clones",
+      "text": "Why do I get the feeling you're going to be the death of me?"
+    },
+    {
+      "character": "jango_fett",
+      "movie": "attack_of_the_clones",
+      "text": "I'm just a simple man trying to make my way in the universe."
+    },
+    {
+      "character": "padme_amidala",
+      "movie": "attack_of_the_clones",
+      "text": "To be angry is to be human."
+    },
+    {
+      "character": "palpatine",
+      "movie": "attack_of_the_clones",
+      "text": "I love democracy. I love the Republic."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "The dark side clouds everything. Impossible to see, the future is."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "attack_of_the_clones",
+      "text": "Don't say that, master. You're the closest thing I have to a father."
+    },
+    {
+      "character": "padme_amidala",
+      "movie": "attack_of_the_clones",
+      "text": "We live in a real world; come back to it."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "attack_of_the_clones",
+      "text": "We're keepers of the peace, not soldiers."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "Through negotiation, the Jedi maintain peace. Starting a war, we have no intention of."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "attack_of_the_clones",
+      "text": "I will never join you, Dooku."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "Victory? Victory, you say? Master Obi-Wan, not victory."
+    },
+    {
+      "character": "palpatine",
+      "movie": "attack_of_the_clones",
+      "text": "You don't need guidance, Anakin. In time, you will learn to trust your feelings."
+    },
+    {
+      "character": "count_dooku",
+      "movie": "attack_of_the_clones",
+      "text": "The Jedi will be overwhelmed. The Republic will agree to any demands we make."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "attack_of_the_clones",
+      "text": "Sometimes we must let go of our pride and do it as requested of us."
+    },
+    {
+      "character": "queen_jamilla",
+      "movie": "attack_of_the_clones",
+      "text": "We must keep our faith in the Republic. The day we stop believing democracy can work is the day we lose it."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "attack_of_the_clones",
+      "text": "You don't want to sell me death sticks."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "attack_of_the_clones",
+      "text": "You want to go home and rethink your life."
+    },
+    {
+      "character": "palpatine",
+      "movie": "attack_of_the_clones",
+      "text": "And so, they've finally given you an assignment. Your patience has paid off."
+    },
+    {
+      "character": "palpatine",
+      "movie": "attack_of_the_clones",
+      "text": "I see you becoming the greatest of all the Jedi, Anakin. Even more powerful than Master Yoda."
+    },
+    {
+      "character": "padme_amidala",
+      "movie": "attack_of_the_clones",
+      "text": "I will not let you give up your future for me."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "Blind we are, if the creation of this clone army we could not see."
+    },
+    {
+      "character": "yoda",
+      "movie": "attack_of_the_clones",
+      "text": "More happening on Geonosis, I fear, than has been revealed."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "Hello there."
+    },
+    {
+      "character": "padme_amidala",
+      "movie": "revenge_of_the_sith",
+      "text": "So this is how liberty dies... with thunderous applause."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "Only a Sith deals in absolutes."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "It's over, Anakin. I have the high ground."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Unlimited power!"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "You were the Chosen One!"
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Did you ever hear the tragedy of Darth Plagueis the Wise?"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "You were my brother, Anakin. I loved you."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "I am the Senate!"
+    },
+    {
+      "character": "count_dooku",
+      "movie": "revenge_of_the_sith",
+      "text": "Twice the pride, double the fall."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Commander Cody, the time has come. Execute Order 66.",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Good is a point of view, Anakin."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "He could save others from death... but not himself."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "revenge_of_the_sith",
+      "text": "The Senate will decide your fate."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "revenge_of_the_sith",
+      "text": "I hate you!"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "revenge_of_the_sith",
+      "text": "You underestimate my power!"
+    },
+    {
+      "character": "count_dooku",
+      "movie": "revenge_of_the_sith",
+      "text": "Your swords, please. We don't want to make a mess of things in front of the Chancellor."
+    },
+    {
+      "character": "yoda",
+      "movie": "revenge_of_the_sith",
+      "text": "Destroy the Sith, we must."
+    },
+    {
+      "character": "count_dooku",
+      "movie": "revenge_of_the_sith",
+      "text": "I sense great fear in you, Skywalker. You have hate, you have anger but you don't use them."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "Another happy landing."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "In order to ensure our security and continuing stability, the Republic will be reorganized into the first Galactic Empire!! For a safe and secure society!",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "This time, we'll do it together."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Get help. You're no match for him; he's a Sith Lord."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "Chancellor Palpatine, Sith Lords are our speciality."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "You won't get away this time, Dooku."
+    },
+    {
+      "character": "count_dooku",
+      "movie": "revenge_of_the_sith",
+      "text": "I've been looking forward to this."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "revenge_of_the_sith",
+      "text": "My powers have doubled since the last time we met, Count."
+    },
+    {
+      "character": "general_grievous",
+      "movie": "revenge_of_the_sith",
+      "text": "Ah, yes. The negotiator. General Kenobi. We've been waiting for you."
+    },
+    {
+      "character": "general_grievous",
+      "movie": "revenge_of_the_sith",
+      "text": "And... ...Anakin Skywalker. I was expecting someone of your reputation to be a little... older."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "revenge_of_the_sith",
+      "text": "General Grievous. You're shorter than I expected."
+    },
+    {
+      "character": "general_grievous",
+      "movie": "revenge_of_the_sith",
+      "text": "Your lightsabers will make a fine addition to my collection."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "revenge_of_the_sith",
+      "text": "Not this time. And this time, you won't escape."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "Remember back to your early teachings. \"All who gain power are afraid to lose it.\" Even the Jedi."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "revenge_of_the_sith",
+      "text": "The Sith rely on their passion for their strength. They think inwards, only about themselves."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "revenge_of_the_sith",
+      "text": "The Jedi are selfless. They only care about others."
+    },
+    {
+      "character": "palpatine",
+      "movie": "revenge_of_the_sith",
+      "text": "The dark side of the Force is a pathway to many abilities some consider to be unnatural."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "revenge_of_the_sith",
+      "text": "I sense a plot to destroy the Jedi. The dark side of the Force surrounds the Chancellor."
+    },
+    {
+      "character": "irina_spalko",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Belief, Dr. Jones, is a gift you have yet to receive. My sympathies."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "I think you just brought a knife to a gunfight."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "If you want to be a good archaeologist, you gotta get out of the library!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Leave it to Ox to write a riddle in a dead language."
+    },
+    {
+      "character": "mutt_williams",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Get on, Gramps."
+    },
+    {
+      "character": "irina_spalko",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "You fight like a young man; eager to begin, quick to finish!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "There's always another explanation."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Knowledge was their treasure."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Not as easy as it used to be."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Why the hell didn't you make him finish school?!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Damn, I thought that was closer!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Sure, great! Don't wait for me!"
+    },
+    {
+      "character": "mutt_williams",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "I can't concentrate with you two fighting all the time!"
+    },
+    {
+      "character": "irina_spalko",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "And what I do not know, I find out."
+    },
+    {
+      "character": "mutt_williams",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "For an old man, you're not bad in a fight. What're you like - 80?"
+    },
+    {
+      "character": "irina_spalko",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Do svidaniya, Dr. Jones."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "Oh, that can't be good. Oh, that can't be good at all."
+    },
+    {
+      "character": "irina_spalko",
+      "movie": "kingdom_of_the_crystal_skull",
+      "text": "You're a hard man to read, Dr. Jones."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "clone_wars",
+      "text": "I told you this victory was too easy, we never should have sent the ship back for supplies."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "clone_wars",
+      "text": "Padawan would just slow me down."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "clone_wars",
+      "text": "I thought you were the one with the plan."
+    },
+    {
+      "character": "ahsoka_tano",
+      "movie": "clone_wars",
+      "text": "So, this is where the fun begins."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "clone_wars",
+      "text": "We know of Dooku's plot to turn the Hutts against us. It will not succeed."
+    },
+    {
+      "character": "asajj_ventress",
+      "movie": "clone_wars",
+      "text": "It will when the truth dies with you."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "clone_wars",
+      "text": "Do you really think it's a good idea to bring a padawan learner into all this?"
+    },
+    {
+      "character": "declan_winky_hall",
+      "movie": "red_tails",
+      "text": "Experience is a cruel teacher, gives the exam first and then the lesson."
+    },
+    {
+      "character": "lightning",
+      "movie": "red_tails",
+      "text": "This is for you Pretty Boy and your bright yellow nose!"
+    },
+    {
+      "character": "declan_winky_hall",
+      "movie": "red_tails",
+      "text": "Every time I close the lid of my canopy, I feel like I'm shuttin' the lid of my coffin."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "Chewie, we're home."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "That's not how the Force works!"
+    },
+    {
+      "character": "maz_kanata",
+      "movie": "force_awakens",
+      "text": "The belonging you seek is not behind you, it is ahead."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "force_awakens",
+      "text": "I will finish what you started."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "The crazy thing is - it's true."
+    },
+    {
+      "character": "rey",
+      "movie": "force_awakens",
+      "text": "The garbage will do."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "force_awakens",
+      "text": "Look how old you've become."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "force_awakens",
+      "text": "I'll show you the dark side."
+    },
+    {
+      "character": "lor_san_tekka",
+      "movie": "force_awakens",
+      "text": "The First Order rose from the dark side. You did not."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "So it's big."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "That's why I did it. So you'd miss me."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "force_awakens",
+      "text": "You still drive me crazy."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "force_awakens",
+      "text": "If you see our son, bring him home."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "Escape now, hug later!"
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "Some things never change."
+    },
+    {
+      "character": "lor_san_tekka",
+      "movie": "force_awakens",
+      "text": "I know where you come from. Before you called yourself \"Kylo Ren\"."
+    },
+    {
+      "character": "lor_san_tekka",
+      "movie": "force_awakens",
+      "text": "You may try. But you cannot deny the truth that is your family."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "And that \"thing\" can understand you, too, so watch it! Come on outta there!"
+    },
+    {
+      "character": "supreme_leader_snoke",
+      "movie": "force_awakens",
+      "text": "Even you, Master of the Knights of Ren, have never faced such a test."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "force_awakens",
+      "text": "By the grace of your training, I will not be seduced."
+    },
+    {
+      "character": "han_solo",
+      "movie": "force_awakens",
+      "text": "This map's not complete. It's just a piece. Ever since Luke disappeared, people have been looking for him."
+    },
+    {
+      "character": "maz_kanata",
+      "movie": "force_awakens",
+      "text": "That lightsaber was Luke's, and his father's before him, and now, it calls to you."
+    },
+    {
+      "character": "rey",
+      "movie": "force_awakens",
+      "text": "I'm never touching that thing again. I don't want any part of this!"
+    },
+    {
+      "character": "rey",
+      "movie": "force_awakens",
+      "text": "That happens when you're being hunted by a creature in a mask."
+    },
+    {
+      "character": "rey",
+      "movie": "force_awakens",
+      "text": "You... you're afraid... that you will never be as strong as Darth Vader!"
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "force_awakens",
+      "text": "She is strong with the Force! Untrained, but stronger than she knows!"
+    },
+    {
+      "character": "chirrut_imwe",
+      "movie": "rogue_one",
+      "text": "I'm one with the Force, and the Force is with me."
+    },
+    {
+      "character": "jyn_erso",
+      "movie": "rogue_one",
+      "text": "Rebellions are built on hope!"
+    },
+    {
+      "character": "darth_vader",
+      "movie": "rogue_one",
+      "text": "Be careful not to choke on your aspirations, Director."
+    },
+    {
+      "character": "k_2so",
+      "movie": "rogue_one",
+      "text": "Congratulations. You're being rescued. Please do not resist."
+    },
+    {
+      "character": "jyn_erso",
+      "movie": "rogue_one",
+      "text": "This is a rebellion, isn't it? I rebel!"
+    },
+    {
+      "character": "k_2so",
+      "movie": "rogue_one",
+      "text": "Although there's a problem on the horizon... there's no horizon."
+    },
+    {
+      "character": "k_2so",
+      "movie": "rogue_one",
+      "text": "Jyn, I'll be there for you. Cassian said I had to."
+    },
+    {
+      "character": "galen_erso",
+      "movie": "rogue_one",
+      "text": "You're confusing peace... with terror."
+    },
+    {
+      "character": "orson_krennic",
+      "movie": "rogue_one",
+      "text": "Well, you have to start somewhere."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "rogue_one",
+      "text": "There is no Death Star."
+    },
+    {
+      "character": "jyn_erso",
+      "movie": "rogue_one",
+      "text": "The time to fight is now!"
+    },
+    {
+      "character": "jyn_erso",
+      "movie": "rogue_one",
+      "text": "This is our chance to make a real difference."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "rogue_one",
+      "text": "My apologies. You do have a great many things to explain."
+    },
+    {
+      "character": "darth_vader",
+      "movie": "rogue_one",
+      "text": "You were not summoned here to grovel, Director Krennic."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "last_jedi",
+      "text": "Let the past die. Kill it if you have to."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "This is not going to go the way you think."
+    },
+    {
+      "character": "yoda",
+      "movie": "last_jedi",
+      "text": "The greatest teacher, failure is."
+    },
+    {
+      "character": "rose_tico",
+      "movie": "last_jedi",
+      "text": "That's how we're gonna win. Not fighting what we hate, saving what we love."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "See you around, kid."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "The Force is not a power you have. It's not about lifting rocks."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "Impressive. Every word in that sentence was wrong."
+    },
+    {
+      "character": "yoda",
+      "movie": "last_jedi",
+      "text": "We are what they grow beyond. That is the true burden of all masters."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "last_jedi",
+      "text": "It's time to let old things die."
+    },
+    {
+      "character": "dj",
+      "movie": "last_jedi",
+      "text": "They blow you up today, you blow them up tomorrow."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "No one's ever really gone."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "last_jedi",
+      "text": "The spark... is out."
+    },
+    {
+      "character": "rey",
+      "movie": "last_jedi",
+      "text": "I've never felt so alone."
+    },
+    {
+      "character": "finn",
+      "movie": "last_jedi",
+      "text": "Rebel scum."
+    },
+    {
+      "character": "poe_dameron",
+      "movie": "last_jedi",
+      "text": "Hi, I'm holding for General Hugs."
+    },
+    {
+      "character": "armitage_hux",
+      "movie": "last_jedi",
+      "text": "This is Hux. You and your friends are doomed! We will wipe your filth from the galaxy."
+    },
+    {
+      "character": "poe_dameron",
+      "movie": "last_jedi",
+      "text": "With an 'H'? Skinny guy. Kinda pasty."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "last_jedi",
+      "text": "I've given everything I have to you... to the dark side."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "last_jedi",
+      "text": "I killed Han Solo. When the moment came, I didn't hesitate."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "You need a teacher. I can't teach you."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "Close your eyes. Breathe. Now... reach out."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "Wow, it must be really strong with you!"
+    },
+    {
+      "character": "rey",
+      "movie": "last_jedi",
+      "text": "The island. Life. Death and decay, that feeds new life. Warmth. Cold. Peace. Violence."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "Resist it, Rey. Rey? REY! You went straight to the dark."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "last_jedi",
+      "text": "It offered something you needed. And you didn't even try to stop yourself."
+    },
+    {
+      "character": "rey",
+      "movie": "last_jedi",
+      "text": "Murderous snake! You're too late! You've lost! I've found Skywalker!"
+    },
+    {
+      "character": "rey",
+      "movie": "last_jedi",
+      "text": "I know everything I need to know about you."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "I've got a really good feeling about this."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "I'm gonna be a pilot. The best in the galaxy."
+    },
+    {
+      "character": "tobias_beckett",
+      "movie": "solo",
+      "text": "Assume everyone will betray you, and you will never be disappointed."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "Thought we were in trouble there for a second, but it's fine. We're fine."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "We'll find a ship. We've already got the pilot."
+    },
+    {
+      "character": "tobias_beckett",
+      "movie": "solo",
+      "text": "Hey, kid. I'm putting together a crew. You in?"
+    },
+    {
+      "character": "tobias_beckett",
+      "movie": "solo",
+      "text": "People are predictable."
+    },
+    {
+      "character": "qi_ra",
+      "movie": "solo",
+      "text": "I might be the only person who knows what you really are."
+    },
+    {
+      "character": "lando_calrissian",
+      "movie": "solo",
+      "text": "Everything you heard about me is true."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "Since when do you know how to fly? 190 years old?! You look great!"
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "You think everything sounds like a bad idea."
+    },
+    {
+      "character": "tobias_beckett",
+      "movie": "solo",
+      "text": "If you come with us, you're in this life for good."
+    },
+    {
+      "character": "qi_ra",
+      "movie": "solo",
+      "text": "It's risky, but it's worth a try."
+    },
+    {
+      "character": "qi_ra",
+      "movie": "solo",
+      "text": "You're after something. Is it revenge? Money? Or is it something else? You look good. Little rough around the edges, but good."
+    },
+    {
+      "character": "han_solo",
+      "movie": "solo",
+      "text": "\"Chewbacca\"? Alright, well, you're gonna need a nickname cause I ain't saying that every time."
+    },
+    {
+      "character": "dryden_vos",
+      "movie": "solo",
+      "text": "You need an incredibly fast ship, and a brilliant pilot."
+    },
+    {
+      "character": "darth_maul",
+      "movie": "solo",
+      "text": "One man couldn't have done this alone.",
+      "as": "Maul"
+    },
+    {
+      "character": "poe_dameron",
+      "movie": "rise_of_skywalker",
+      "text": "Somehow, Palpatine returned."
+    },
+    {
+      "character": "palpatine",
+      "movie": "rise_of_skywalker",
+      "text": "I am all the Sith!"
+    },
+    {
+      "character": "rey",
+      "movie": "rise_of_skywalker",
+      "text": "And I... am all the Jedi!"
+    },
+    {
+      "character": "rey",
+      "movie": "rise_of_skywalker",
+      "text": "Rey Skywalker."
+    },
+    {
+      "character": "palpatine",
+      "movie": "rise_of_skywalker",
+      "text": "I have died before."
+    },
+    {
+      "character": "leia_organa",
+      "movie": "rise_of_skywalker",
+      "text": "Nothing is impossible."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "rise_of_skywalker",
+      "text": "The dark side is in our nature. Surrender to it."
+    },
+    {
+      "character": "zorii_bliss",
+      "movie": "rise_of_skywalker",
+      "text": "They win by making you think you're alone. There's more of us."
+    },
+    {
+      "character": "han_solo",
+      "movie": "rise_of_skywalker",
+      "text": "Kylo Ren is dead. My son is alive."
+    },
+    {
+      "character": "lando_calrissian",
+      "movie": "rise_of_skywalker",
+      "text": "We had each other. That's how we won."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "rise_of_skywalker",
+      "text": "A Jedi's weapon deserves more respect."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "rise_of_skywalker",
+      "text": "Rey, some things are stronger than blood."
+    },
+    {
+      "character": "rey",
+      "movie": "rise_of_skywalker",
+      "text": "All you want is for me to hate, but I won't. Not even you."
+    },
+    {
+      "character": "palpatine",
+      "movie": "rise_of_skywalker",
+      "text": "At last. Snoke trained you well.",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "rise_of_skywalker",
+      "text": "I killed Snoke. I'll kill you."
+    },
+    {
+      "character": "rey",
+      "movie": "rise_of_skywalker",
+      "text": "I'm starting to think it's impossible to hear the voices of the Jedi who came before."
+    },
+    {
+      "character": "kylo_ren",
+      "movie": "rise_of_skywalker",
+      "text": "The only way you're getting to Exegol... is with me."
+    },
+    {
+      "character": "palpatine",
+      "movie": "rise_of_skywalker",
+      "text": "The time has come! With your hatred, you will take my life, and you will ascend!",
+      "as": "Darth Sidious"
+    },
+    {
+      "character": "rey",
+      "movie": "rise_of_skywalker",
+      "text": "My family were strong. They saved me from you."
+    },
+    {
+      "character": "obi_wan_kenobi",
+      "movie": "rise_of_skywalker",
+      "text": "These are your final steps, Rey. Rise and take them."
+    },
+    {
+      "character": "anakin_skywalker",
+      "movie": "rise_of_skywalker",
+      "text": "Bring back the balance, Rey, as I did."
+    },
+    {
+      "character": "luminara_unduli",
+      "movie": "rise_of_skywalker",
+      "text": "In the night, find the light, Rey."
+    },
+    {
+      "character": "qui_gon_jinn",
+      "movie": "rise_of_skywalker",
+      "text": "Every Jedi who ever lived lives in you."
+    },
+    {
+      "character": "mace_windu",
+      "movie": "rise_of_skywalker",
+      "text": "Feel the Force flowing through you, Rey."
+    },
+    {
+      "character": "kanan_jarrus",
+      "movie": "rise_of_skywalker",
+      "text": "In the heart of the Jedi lies her strength."
+    },
+    {
+      "character": "luke_skywalker",
+      "movie": "rise_of_skywalker",
+      "text": "Rey, the Force will be with you. Always."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "It's not so much what you believe in, it's how hard you believe it."
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "History is a long list of losses, Doctor Jones. It's just a question of whose."
+    },
+    {
+      "character": "helena_shaw",
+      "movie": "dial_of_destiny",
+      "text": "The only thing worth believing in, ever... is cash."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Too many Nazis."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Lady, it's an ancient hunk of gears. Half a hunk."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Archimedes was a mathematician, Baz, not a magician!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "This is going in a museum."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Proving it is what makes it science!"
+    },
+    {
+      "character": "helena_shaw",
+      "movie": "dial_of_destiny",
+      "text": "Sorry, pal, but you're a Nazi!"
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "You didn't win the war. Hitler lost it."
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "Yesterday belongs to us, Doctor Jones."
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "Mathematics works. As it conquered space, it will conquer time."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "I should've retired you when I had the chance!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Nobody memorizes every page of their dead father's notebooks for the money."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Under the moon, life lies at her feet."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "I fought the Nazis, you know!"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "I don't know where we're going, Jurgen, but it sure as hell ain't 1939!"
+    },
+    {
+      "character": "helena_shaw",
+      "movie": "dial_of_destiny",
+      "text": "You've taken your chances, made your mistakes and now a final triumph!"
+    },
+    {
+      "character": "helena_shaw",
+      "movie": "dial_of_destiny",
+      "text": "Indiana Jones, back in the saddle."
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "You should have stayed in New York."
+    },
+    {
+      "character": "jurgen_voller",
+      "movie": "dial_of_destiny",
+      "text": "Things move forward, Doctor Jones. And sometimes... they go backward."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "My memory's a little fuzzy. Are you still a Nazi?"
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Speaking as an ancient? Going to the moon is like going to Reno. In the middle of nowhere, and... no blackjack."
+    },
+    {
+      "character": "indiana_jones",
+      "movie": "dial_of_destiny",
+      "text": "Whatever I did, I apologize."
+    },
+    {
+      "character": "helena_shaw",
+      "movie": "dial_of_destiny",
+      "text": "Dad told me you found something on a train during the war. A dial that could change the course of history."
+    }
+  ]
+}
